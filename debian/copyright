@@ -1,22 +1,212 @@
-Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: template-repository
-Source: https://github.com/deepin-community/template-repository
+This package was debianized by Sebastian Harl <tokkee@debian.org> on
+Thu, 28 Sep 2006 13:09:36 +0200.
 
-Files: *
-Copyright: 2023 Tsic404 <liuheng@deepin.org>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <https://www.gnu.org/licenses/>
- .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+It was downloaded from <http://jonas.nitro.dk/tig/releases/>.
+
+Upstream Author:
+	Jonas Fonseca <fonseca@diku.dk>
+
+Copyright Holders:
+	Damian Pietras <daper@daper.net>
+	Drew Northup <n1xim.email@gmail.com>
+	Free Software Foundation, Inc.
+	John Zaitseff <J.Zaitseff@zap.org.au>
+	Jonas Fonseca <fonseca@diku.dk>
+	Mark Pulford <mark@kyne.com.au>
+	Mike Frysinger <vapier@gentoo.org>
+	Reuben Thomas <rrt@sc3d.org>
+	Roland Hieber, Pengutronix
+	Thomas E. Dickey
+
+License:
+
+	File: contrib/ax_with_curses.m4
+
+	Copyright © 2009 Mark Pulford <mark@kyne.com.au>
+	Copyright © 2009 Damian Pietras <daper@daper.net>
+	Copyright © 2012 Reuben Thomas <rrt@sc3d.org>
+	Copyright © 2011 John Zaitseff <J.Zaitseff@zap.org.au>
+
+	This program is free software: you can redistribute it and/or modify it
+	under the terms of the GNU General Public License as published by the
+	Free Software Foundation, either version 3 of the License, or (at your
+	option) any later version.
+
+	This program is distributed in the hope that it will be useful, but
+	WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+	Public License for more details.
+
+	You should have received a copy of the GNU General Public License along
+	with this program. If not, see <http://www.gnu.org/licenses/>.
+
+	As a special exception, the respective Autoconf Macro's copyright owner
+	gives unlimited permission to copy, distribute and modify the configure
+	scripts that are the output of Autoconf when processing the Macro. You
+	need not follow the terms of the GNU General Public License when using
+	or distributing such scripts, even though portions of the text of the
+	Macro appear in them. The GNU General Public License (GPL) does govern
+	all other use of the material that constitutes the Autoconf Macro.
+
+	This special exception to the GPL applies to versions of the Autoconf
+	Macro released by the Autoconf Archive. When you make and distribute a
+	modified version of the Autoconf Macro, you may extend this special
+	exception to the GPL to apply to your modified version as well.
+
+	File: contrib/tig-completion.bash
+
+	Copyright © 2019 Roland Hieber, Pengutronix
+	Copyright © 2007-2022 Jonas Fonseca
+
+On Debian systems, the complete text of the GNU General Public License,
+version 2, can be found in `/usr/share/common-licenses/GPL-2'.
+version 3, can be found in `/usr/share/common-licenses/GPL-3'.
+
+	Files: compat/ansidecl.h, compat/hashtab.c, compat/hashtab.h,
+	       compat/mkstemps.c, compat/setenv.c, compat/strndup.h,
+	       tools/ax_lib_readline.m4
+
+	Copyright © 1991-2018 Free Software Foundation, Inc.
+
+	The GNU C Library is free software; you can redistribute it and/or
+	modify it under the terms of the GNU Library General Public License as
+	published by the Free Software Foundation; either version 2 of the
+	License, or (at your option) any later version.
+
+	The GNU C Library is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+	Library General Public License for more details.
+
+	You should have received a copy of the GNU Library General Public
+	License along with the GNU C Library; see the file COPYING.LIB.  If not,
+	write to the Free Software Foundation, Inc., 51 Franklin Street - Fifth
+	Floor, Boston, MA 02110-1301, USA.
+
+On Debian systems, the complete text of the GNU Library General Public
+License, version 2, can be found in `/usr/share/common-licenses/LGPL-2'.
+
+	Files: compat/utf8proc.c
+	       compat/utf8proc.h
+
+	Copyright © 2014-2021 Steven G. Johnson, Jiahao Chen, Peter Colberg, Tony Kelman, Scott P. Jones, and other contributors.
+	Copyright © 2009 Public Software Group e. V., Berlin, Germany
+
+	                        All Rights Reserved
+
+	Permission is hereby granted, free of charge, to any person obtaining a
+	copy of this software and associated documentation files (the
+	"Software"), to deal in the Software without restriction, including
+	without limitation the rights to use, copy, modify, merge, publish,
+	distribute, sublicense, and/or sell copies of the Software, and to
+	permit persons to whom the Software is furnished to do so, subject to
+	the following conditions:
+
+	The above copyright notice and this permission notice shall be included
+	in all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+	OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+	MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+	IN NO EVENT SHALL THE ABOVE LISTED COPYRIGHT HOLDER(S) BE LIABLE FOR ANY
+	CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+	TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+	SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+	Except as contained in this notice, the name(s) of the above copyright
+	holders shall not be used in advertising or otherwise to promote the
+	sale, use or other dealings in this Software without prior written
+	authorization.
+
+	Files: compat/utf8proc_data.c
+
+	Derived from a modified version of the Unicode data files.
+
+	Copyright © 1991-2007 Unicode, Inc.
+
+	All rights reserved.
+	Distributed under the Terms of Use in http://www.unicode.org/copyright.html.
+
+	Permission is hereby granted, free of charge, to any person obtaining
+	a copy of the Unicode data files and any associated documentation (the
+	"Data Files") or Unicode software and any associated documentation
+	(the "Software") to deal in the Data Files or Software without
+	restriction, including without limitation the rights to use, copy,
+	modify, merge, publish, distribute, and/or sell copies of the Data
+	Files or Software, and to permit persons to whom the Data Files or
+	Software are furnished to do so, provided that (a) the above copyright
+	notice(s) and this permission notice appear with all copies of the
+	Data Files or Software, (b) both the above copyright notice(s) and
+	this permission notice appear in associated documentation, and (c)
+	there is clear notice in each modified Data File or in the Software as
+	well as in the documentation associated with the Data File(s) or
+	Software that the data or software has been modified.
+
+	THE DATA FILES AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF
+	ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+	WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+	NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT
+	HOLDER OR HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR
+	ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES
+	WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+	ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
+	OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE DATA FILES OR
+	SOFTWARE.
+
+	Except as contained in this notice, the name of a copyright holder
+	shall not be used in advertising or otherwise to promote the sale, use
+	or other dealings in these Data Files or Software without prior
+	written authorization of the copyright holder.
+
+	Unicode and the Unicode logo are trademarks of Unicode, Inc., and may
+	be registered in some jurisdictions. All other trademarks and
+	registered trademarks mentioned herein are the property of their
+	respective owners.
+
+	Files: tools/ax_require_defined.m4
+
+	Copyright © 2014 Mike Frysinger <vapier@gentoo.org>
+
+	Copying and distribution of this file, with or without modification, are
+	permitted in any medium without royalty provided the copyright notice
+	and this notice are preserved. This file is offered as-is, without any
+	warranty.
+
+	Files: compat/compat.h
+
+	Copyright © 2006-2022 Jonas Fonseca <fonseca@diku.dk>
+	Copyright © 2013 Drew Northup <n1xim.email@gmail.com>
+
+	Files: *
+
+	Copyright © 2006-2022 Jonas Fonseca <fonseca@diku.dk>
+
+	This package is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
+
+	This package is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this package; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+
+On Debian systems, the complete text of the GNU General Public License,
+version 2, can be found in `/usr/share/common-licenses/GPL-2'.
+
+	Much of the code for dealing with Unicode is derived from ELinks' UTF-8
+	code developed by Scrool <scroolik@gmail.com>. Origin file is
+	src/intl/charset.c from the UTF-8 branch commit elinks-0.11.0-g31f2c28.
+	ELinks is developed by Petr Baudiš and Jonas Fonseca and licensed under
+	the General Public License, version 2, see above.
+
+On Debian systems, the complete text of the GNU General Public License,
+version 2, can be found in `/usr/share/common-licenses/GPL-2'.
+
+The Debian packaging is © 2006-2012, Sebastian Harl <tokkee@debian.org> and
+is licensed under the GPL, see above.
+

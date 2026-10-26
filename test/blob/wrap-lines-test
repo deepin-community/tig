@@ -1,0 +1,61 @@
+#!/bin/sh
+
+. libtest.sh
+. libgit.sh
+
+export COLUMNS=40
+
+steps '
+	:view-tree
+	:/README.md
+	:view-blob
+	:save-display wrapped.screen
+'
+
+tigrc <<EOF
+set line-graphics = utf-8
+set wrap-lines = true
+EOF
+
+git_init
+
+test_setup_work_dir()
+{
+	printf 'Как пуст, и вял, и ничтожен почти всякий прожитой день! Как мало следов оставляет он за собою! Как бессмысленно глупо пробежали эти часы за часами!\tИван Сергеевич Тургенев\n' >README.md
+	git add README.md
+	git_commit -m "tomorrow"
+}
+
+test_tig
+
+assert_equals 'wrapped.screen' <<EOF
+Как пуст, и вял, и ничтожен почти всякий
+ прожитой день! Как мало следов оставляе
+т он за собою! Как бессмысленно глупо пр
+обежали эти часы за часами!       Иван С
+геевич Тургенев
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+[blob] README.md - line 1 of 5      100%
+EOF
